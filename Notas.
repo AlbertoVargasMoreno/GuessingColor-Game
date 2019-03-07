@@ -1,0 +1,14 @@
+
+description: an RGB guessing game
+
+Como es que usando 'padding-bottom:30%;' en el CSS configurara la altura para los cuadrados?
+Cuando especificas la altura o ancho como un porcentaje, Ese porcentaje esta en relacion al Elemento Padre.
+
+Que esto es posible?, esto no esta listo para mi espa;ol
+
+Few things summarized before starting:
+A pretty large App. it's gonna be a lot of JS, about a hundred ish lines
+quite a bit of CSS as well, some HTML too.
+
+start: bare bones and very little styling, n get the functionallity going
+1st step. make the html, the css and create a simple grid. and the basci  logic of quick events

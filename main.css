@@ -1,0 +1,21 @@
+body {
+    background-color: #232323;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+/* poner todo en terminos de porcentaje hace que los cuadros sean responsivos */
+#container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+/* arrriba/abajo el margen es cero 
+los laterales se centran automaticamente */
+h1 {
+    color: #ffffff;
+}
