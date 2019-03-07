@@ -12,3 +12,15 @@ quite a bit of CSS as well, some HTML too.
 
 start: bare bones and very little styling, n get the functionallity going
 1st step. make the html, the css and create a simple grid. and the basci  logic of quick events
+
+remember:
+html: structure
+js: behavior 
+css: presentation
+https://www.lyfemarketing.com/blog/web-design-best-practices/
+how to correctly name JS files:
+https://stackoverflow.com/questions/7273316/what-is-the-javascript-filename-naming-convention
+
+https://www.w3schools.com/js/js_conventions.asp
+
+    por que queryselector?
