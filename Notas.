@@ -29,3 +29,6 @@ video3: 197.
 ob: fade 'the wrong square' out min0:41
 display the message try again/ correct min1:09-3:19
     textContent ==> propiedad
+add feature, when your right all the squares change 3;23-5;49
+
+    condicion inicial color elegiido el 4to, indice 3// linea 13
