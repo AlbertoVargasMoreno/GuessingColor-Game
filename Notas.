@@ -1,39 +1,23 @@
 
-description: an RGB guessing game
+description: RGB guessing game
 
-Como es que usando 'padding-bottom:30%;' en el CSS configurara la altura para los cuadrados?
-Cuando especificas la altura o ancho como un porcentaje, Ese porcentaje esta en relacion al Elemento Padre.
-
-Que esto es posible?, esto no esta listo para mi espa;ol
-
-Few things summarized before starting:
-A pretty large App. it's gonna be a lot of JS, about a hundred ish lines
-quite a bit of CSS as well, some HTML too.
-
-start: bare bones and very little styling, n get the functionallity going
-1st step. make the html, the css and create a simple grid. and the basci  logic of quick events
-
-remember:
 html: structure
 js: behavior 
 css: presentation
-https://www.lyfemarketing.com/blog/web-design-best-practices/
-how to correctly name JS files:
-https://stackoverflow.com/questions/7273316/what-is-the-javascript-filename-naming-convention
 
-https://www.w3schools.com/js/js_conventions.asp
-
-    por que queryselector?
+**********************************************************************************************************************************************************************
+ por que queryselector? //could be ask
 
 video3: 197.
-ob: fade 'the wrong square' out min0:41
-display the message try again/ correct min1:09-3:19
-    textContent ==> propiedad
-add feature, when your right all the squares change 3;23-5;49
+objective: 
+           fade 'the wrong square' out min0:41
+           display the message try_again/correct    min1:09-3:19
+                textContent ==> propiedad                                   // it could be asked why I used this, and what is a property. Need to read about this.
+           add feature, when your right all the squares change  min3:23-5:49
 
-    condicion inicial color elegiido el 4to, indice 3// linea 13
-pick a random color from the array, instead of always have the option colors[3] 6:24-end
-    lenght==>property
+                condicion inicial: 4to color/item elegido por default , este tiene el indice 3 // linea 13
+           pick a random color from the array, instead of always have the option colors[3]  6:24-end
+                 lenght==>property                                         // could be ask
 linea 43: 
 https://stackoverflow.com/questions/8610635/how-do-you-use-math-random-to-generate-random-ints
 https://stackoverflow.com/questions/596467/how-do-i-convert-a-float-number-to-a-whole-number-in-javascript
@@ -44,6 +28,14 @@ don;t use the same six colors every single time.
     create a function that decide how many items are in the array// Generate Random colors function, you give it a number and returns that number of random-colors inside of an array
     So in summary: generates an array
 
-    make a randomcolor, we need to  pick a value between 0-255
-    synthesize the three values into a string use for the property rgb(r,g,b)
+    make a randomcolor, we need to  pick a value between 0-255 and synthesize the three values into a string use for the property rgb(r,g,b)
 
+change the h1 backgorund color to the right color
+
+**********************************************************************************************************************************************************************
+things i'd like to review: (clean code, conventions, etc.. )
+https://www.lyfemarketing.com/blog/web-design-best-practices/
+how to correctly name JS files:
+https://stackoverflow.com/questions/7273316/what-is-the-javascript-filename-naming-convention
+
+https://www.w3schools.com/js/js_conventions.asp

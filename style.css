@@ -2,7 +2,9 @@ body {
     background-color: #232323;
     color: #ffffff;
 }
-
+/* Como es que usando 'padding-bottom:30%;' en el CSS configurara la altura para los cuadrados?
+    Cuando especificas la altura o ancho como un porcentaje, Ese porcentaje esta en relacion al Elemento Padre.
+ */
 .square {
     width: 30%;
     background: purple;
@@ -11,12 +13,10 @@ body {
     margin: 1.66%;
 }
 /* poner todo en terminos de porcentaje hace que los cuadros sean responsivos */
+/* arrriba/abajo: margen cero 
+   laterales: centran automaticamente */
 #container {
     margin: 0 auto;
     max-width: 600px;
 }
-/* arrriba/abajo el margen es cero 
-los laterales se centran automaticamente */
-h1 {
-    /* color: #ffffff; */
-}
+
