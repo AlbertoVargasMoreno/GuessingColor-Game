@@ -1,5 +1,6 @@
 body {
     background-color: #232323;
+    color: #ffffff;
 }
 
 .square {
@@ -17,5 +18,5 @@ body {
 /* arrriba/abajo el margen es cero 
 los laterales se centran automaticamente */
 h1 {
-    color: #ffffff;
+    /* color: #ffffff; */
 }
