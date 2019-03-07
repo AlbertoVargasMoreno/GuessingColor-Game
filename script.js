@@ -1,4 +1,3 @@
-console.log("hola");
 var colors = [
     "rgb(255, 0, 0)",
     "rgb(255, 255, 0)",
@@ -8,9 +7,24 @@ var colors = [
     "rgb(255, 0, 255)"
 ]
 var squares = document.querySelectorAll(".square");
+var colorDisplay = document.getElementById("colorDisplay");
 var pickedColor = colors[3];
 
+colorDisplay.textContent = pickedColor;
+
 for (var i = 0; i<squares.length; i++) {
-    squares[i].style.backgroundColor = colors[i]; 
+    squares[i].style.backgroundColor = colors[i];
     
+    // add clcik listeners to squares
+    squares[i].addEventListener("click", function(){
+        // grab color of clicked square
+        var clickedColor = this.style.backgroundColor;
+        // compare color to pickedColor
+        if(clickedColor === pickedColor){
+            alert("Correct");
+        } else {
+            alert("wrong");
+        }
+    });
+
 }
