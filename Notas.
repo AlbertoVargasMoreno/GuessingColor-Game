@@ -32,3 +32,18 @@ display the message try again/ correct min1:09-3:19
 add feature, when your right all the squares change 3;23-5;49
 
     condicion inicial color elegiido el 4to, indice 3// linea 13
+pick a random color from the array, instead of always have the option colors[3] 6:24-end
+    lenght==>property
+linea 43: 
+https://stackoverflow.com/questions/8610635/how-do-you-use-math-random-to-generate-random-ints
+https://stackoverflow.com/questions/596467/how-do-i-convert-a-float-number-to-a-whole-number-in-javascript
+
+video4: 198
+obj:
+don;t use the same six colors every single time.
+    create a function that decide how many items are in the array// Generate Random colors function, you give it a number and returns that number of random-colors inside of an array
+    So in summary: generates an array
+
+    make a randomcolor, we need to  pick a value between 0-255
+    synthesize the three values into a string use for the property rgb(r,g,b)
+
